@@ -182,7 +182,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-blue-600 via-yellow-500 to-red-600 hover:from-blue-700 hover:via-yellow-600 hover:to-red-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5 focus-ring"
               >
-                BIKASH KUMAR YADAV
+              Home
               </a>
             </div>
           </div>
@@ -493,10 +493,10 @@ export default function Home() {
                 <span className="text-purple-500">Candidate Master: 1900–2099</span>
                 <span className="text-orange-400">Master: 2100–2299</span>
                 <span className="text-orange-500">International Master: 2300–2399</span>
-                <span className="text-red-500">Grandmaster: 2400–2599</span>
-                <span className="text-red-600">International Grandmaster: 2600–2999</span>
-                <span className="text-red-700">Legendary Grandmaster: 3000–3999</span>
-                <span className="text-yellow-400 col-span-2">eponym: ≥ 4000</span>
+                <span className="text-red-500">Grandmaster(GM): 2400–2599</span>
+                <span className="text-red-600">International GM: 2600–2999</span>
+                <span className="text-red-700">Legendary GM: 3000–3999</span>
+               {/*<span className="text-yellow-400 col-span-2">eponym: ≥ 4000</span> */}
               </div>
             </div>
 
@@ -509,11 +509,14 @@ export default function Home() {
                 Helpful Links
               </h4>
               <div className="space-y-2">
-                <a href="https://codeforces.com" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-blue-400 transition-colors duration-200 text-sm">
-                  Codeforces Home
-                </a>
+                {/*<a href="https://codeforces.com" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-blue-400 transition-colors duration-200 text-sm">
+                  Home
+                </a>*/}
                 <a href="https://codeforces.com/problemset" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-yellow-400 transition-colors duration-200 text-sm">
                   Problemset
+                </a>
+                <a href="https://codeforces.com/calendar" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-red-400 transition-colors duration-200 text-sm">
+                  Calendar
                 </a>
                 <a href="https://codeforces.com/contests" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-red-400 transition-colors duration-200 text-sm">
                   Contests
@@ -526,7 +529,7 @@ export default function Home() {
           </div>
           <div className="border-t border-gray-800/50 pt-4 text-center">
             <p className="text-gray-500">
-              ©2025 All rights reserved
+              ©2025 Bikash Kumar Yadav. All rights reserved
             </p>
           </div>
         </div>
